@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventures in Fire Island</title>
+</head>
+<style>
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3; /* soft sand-like background */
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.blog-summary {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 1000px;
+    gap: 20px;
+}
+
+.gallery li img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.gallery li img:hover {
+    transform: scale(1.05);
+}
+.call-to-action {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.call-to-action a {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.call-to-action a:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+</style>
+<body>
+
+    <header class="hero" role="banner" aria-label="parkview">
+        <img src="fire island view 1.jpg" alt="mainview">
+        <h1>Adventures in Fire Island</h1>
+    </header>
+
+    <section class="blog-summary">
+        <p>
+            Fire Island is a hidden gem just off the coast of Long Island, New York. Known for its peaceful beaches, scenic trails, and charming communities, it’s the perfect escape from the city. 
+            You can stroll along quiet boardwalks, climb the historic Fire Island Lighthouse for stunning views, or watch wildlife in the protected dunes and marshes. Accessible mainly by ferry, Fire Island feels like a world apart, offering sun, nature, and adventure all in one place.
+        </p>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery: Fire Island</h2>
+        <ul>
+            <li><img src="fire island view 2.jpg" alt="Sunset over Fire Island beach with calm waves"></li>
+            <li><img src="fire island view 3.jpg" alt="Boardwalk leading through the dunes at Fire Island"></li>
+            <li><img src="fire island view 4.jpg" alt="Fire Island Lighthouse standing tall against a blue sky"></li>
+        </ul>
+    </section>
+
+    <section class="call-to-action">
+        <h3>Explore the Adventure!</h3>
+        <p>
+            Fire Island is full of stunning views, peaceful trails, and endless ways to enjoy the outdoors. If you're ready to experience it for yourself, start planning your visit today.
+        </p>
+        <a href="https://www.nps.gov/fiis/index.htm" target="_blank">
+            Plan your trip to Fire Island National Seashore
+        </a>
+    </section>
+
+</body>
+</html>
