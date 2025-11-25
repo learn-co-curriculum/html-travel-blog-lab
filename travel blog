@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h1>Adventures in fire island</h1>
+        <img src="Park.jpg" alt="Fire island National Park">
+
+        <p>Welcome to my blog where is share my unforgetable experience at Fire island.
+        Fire island is located at the coastal province of Kenya where there was a lot of adventures to embark on for the beautiful oceans to the diverse restaurants.
+        With activities such a scuba diving,kite surfing,snokerling and boat rides to various islands.
+        We got to visit certain historical sites in various town that were about three hours away.
+        The trip to the various sites was captivating from the eye catching views along the road to the sites themselves that were rich in history.
+        I would definetley reccomend staying in this place.
+        </p>
+        <H2>Gallery:Fire Island</H2>
+        <ul>
+            <li>Rooms <img src="Rooms.jpg" alt="Rooms"style="width:150px; height:auto;" ></li>
+            
+            <li> Swiming pool <img src="Swiming.jpg" alt="Swiming pool" style="width:150px; height:auto;"></li>
+            
+            <li>Dining area <img src="Dining area.jpg" alt="Dining area" style="width:150px; height:auto;"></li>
+            
+            <li>Beach <img src="Beaches.jpg" alt="Beach"style="width:150px; height:auto;" ></li>
+        </ul>
+        <h3> Explore The Adventure</h3>
+        <p>Escape to Fire Island, where golden beaches, peaceful sunsets, and refreshing ocean breezes create the perfect getaway. 
+            Whether you’re looking to relax, explore nature, or enjoy vibrant island life, Fire Island welcomes you with open arms.
+             Come experience the beauty, charm, and serenity that make this island a destination worth visiting again and again. </p>
+            
+            <nav>
+                <a href="National Park service Website For Fire Island"> 
+                  National Park service Website For Fire Island  
+                </a>
+
+            </nav> 
+    </body>
+</html>
